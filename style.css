@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+
+section h2{
+    font-family: 'Great Vibes', cursive;
+    font-size:48px;
+    margin-top:25px;
+}
+
+section p{
+    font-family: 'Great Vibes', cursive;
+    font-weight:300px;
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+section a{
+    display:inline-block;
+    padding: 7px 0;
+    color:#d299c2;
+    text-decoration:none;
+    width:100px;
+    text-align: center;
+    border: 1px solid #fef9d7;
+    border-radius: 50px;
+    background-color: #fef9d7;
+}
+
+section img{
+    height: 60vh;
+ }
+
+ section:nth-child(1){
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+ }
+
+ section:nth-child(2){
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+ }
+
+ section:nth-child(3){
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+ }
+
+ @media screen and (max-width: 1000px){
+    section{
+        flex-direction: column-reverse;
+        /*justify-content: center;*/
+    }
+
+    section > img{
+        height: 40vh;
+    }
+
+    .contenedor-texto{
+        text-align: center;
+    }
+
+ }
+
+ @media screen and (max-width:600px){
+    section > img{
+        height: 25vh;
+    }
+ }
