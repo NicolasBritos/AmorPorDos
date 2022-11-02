@@ -27,13 +27,14 @@ section{
 section h2{
     font-family: 'Great Vibes', cursive;
     font-size:48px;
+    text-decoration: underline;
     margin-top:25px;
 }
 
 section p{
     font-family: 'Great Vibes', cursive;
     font-weight:300px;
-    font-size:36px;
+    font-size:28px;
     margin-bottom:15px;
 }
 
@@ -81,7 +82,7 @@ section img{
   text-align: center;
   display: inline-block;
   margin: 5px;
-  border: 3px solid #000000;
+  border: 3px solid #ff9a9e;
   border-radius: 5px;
 }
 .cartel>div{
@@ -100,9 +101,7 @@ section img{
   bottom: 0;
   margin: 0 auto ;
 }
-/* .contenedor {
-  margin-top: 3%;
-} */
+
 .contenido {
   width: 80%;
   margin: 0 auto;
@@ -141,16 +140,17 @@ li span {
    margin-bottom: 30px; 
   }
   .cartel {
-    height: 99px;
-    width: 99px;
+    height: 55px;
+    width: 55px;
   }
   .cartel>div{
-    font-size: 45px;
+    font-size: 25px;
   }
   .cartel>div>h3 {
-    font-size: 15px;
+    font-size: 7px;
     margin-top: 0px;
   }
+  
 }
 @keyframes fade {
     0%   {
@@ -166,10 +166,6 @@ li span {
 
 /*FIN CRONOMETRO*/
  
-
-
-
-
  .back-to-top {
     position: fixed;
     right: 2rem;
