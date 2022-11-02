@@ -65,6 +65,18 @@ section img{
     background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
  }
 
+ .progress-bar {
+    height: 1rem;
+    background: #ff9a9e;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+
+
+
  .back-to-top {
     position: fixed;
     right: 2rem;
@@ -75,10 +87,17 @@ section img{
     padding: 0.5rem;
     border: none;
     cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+  }
+
+  .back-to-top:hover {
+    opacity: 60%;
   }
 
   .hidden {
     display: none;
+    opacity: 0%;
   }
 
  @media screen and (max-width: 1000px){
