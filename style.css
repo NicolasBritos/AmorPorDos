@@ -65,6 +65,22 @@ section img{
     background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
  }
 
+ .back-to-top {
+    position: fixed;
+    right: 2rem;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #ffecd2;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+  }
+
  @media screen and (max-width: 1000px){
     section{
         flex-direction: column-reverse;
@@ -86,3 +102,5 @@ section img{
         height: 25vh;
     }
  }
+
+ 
