@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -19,7 +19,7 @@ section{
     width:100%;
     min-height: 100vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 0 40px;
     align-items: center;
 }
@@ -32,38 +32,51 @@ section h2{
 }
 
 section p{
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Libre Baskerville', serif;
     font-weight:300px;
-    font-size:28px;
+    font-size:22px;
+    margin-top:15px;
     margin-bottom:15px;
 }
 
 section a{
     display:inline-block;
     padding: 7px 0;
-    color:#d299c2;
+    color:#d54eaf;
     text-decoration:none;
-    width:100px;
+    width:200px;
     text-align: center;
+    font-size: 18px;
     border: 1px solid #fef9d7;
     border-radius: 50px;
     background-color: #fef9d7;
+    box-shadow: 2px 4px 0px #d299c2;
+    margin-top: 20px;
 }
 
 section img{
     height: 60vh;
- }
-
- section:nth-child(1){
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 50%;
+    image-rendering:optimizeQuality;
+    box-shadow: 2px 1px #fecfef;
  }
 
  section:nth-child(2){
-    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
- }
-
+    background-image: linear-gradient(to right, #ffc3a0 0%, #ffafbd 100%);
+ }  
  section:nth-child(3){
-    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+ } 
+ section:nth-child(4){
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+
+ }
+ section:nth-child(5){
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%); }
+ section:nth-child(6){
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%); }
+ section:nth-child(7){
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
  }
 
  .progress-bar {
@@ -147,7 +160,7 @@ li span {
     font-size: 25px;
   }
   .cartel>div>h3 {
-    font-size: 7px;
+    font-size: 10px;
     margin-top: 0px;
   }
   
