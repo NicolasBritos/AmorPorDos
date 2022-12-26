@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Libre+Baskerville:ital@1&display=swap');
+
+:root{
+ /*--fuente: font-family: 'Alex Brush', cursive;*/
+ --fuente: 'Alex Brush', serif;
+ --titulo: 'Alex Brush', cursive;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -25,14 +34,14 @@ section{
 }
 
 section h2{
-    font-family: 'Great Vibes', cursive;
+    font-family: var(--titulo);
     font-size:48px;
     text-decoration: underline;
     margin-top:25px;
 }
 
 section p{
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--fuente);
     font-weight:300px;
     font-size:22px;
     margin-top:15px;
