@@ -36,7 +36,6 @@ section{
 section h2{
     font-family: var(--titulo);
     font-size:48px;
-    text-decoration: underline;
     margin-top:25px;
 }
 
