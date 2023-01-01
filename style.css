@@ -21,6 +21,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 body{
@@ -35,6 +36,7 @@ section{
     justify-content: center;
     padding: 0 40px;
     align-items: center;
+    scroll-snap-align: center;
 }
 
 section h2{
