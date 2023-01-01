@@ -229,7 +229,6 @@ li span {
     .contenedor-texto{
         text-align: center;
     }
-
  }
 
  @media screen and (max-width:700px){
@@ -237,5 +236,21 @@ li span {
         height: 25vh;
     }
  }
+
+ @media screen and (max-width:400px){
+  section > img{
+      height: 15vh;
+  }
+
+  section p{
+    font-size:15px;
+}
+
+section p > iframe{
+  width:300px; 
+  height:150px;
+}
+
+}
 
  
